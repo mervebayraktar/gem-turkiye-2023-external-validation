@@ -1,0 +1,11 @@
+dimension,scenario,source_value_or_rule,gem_assignment,status,rationale
+material,fixed,ACI133 reinforced-concrete survey,CR,source_supported,Survey scope is reinforced-concrete buildings.
+occupancy,nominal,not supplied,RES,neutral_label,Turkey structural vulnerability signatures were verified identical across RES/COM/IND for each shared base taxonomy.
+lateral_system,lfinf,unknown,LFINF,assumption,Infilled reinforced-concrete moment frame candidate.
+lateral_system,lfm,unknown,LFM,sensitivity,Reinforced-concrete moment frame alternative.
+lateral_system,lwal,unknown,LWAL,sensitivity,Reinforced-concrete wall system alternative; elevator-wall presence alone is insufficient evidence.
+height,exact,reported storeys must match a GEM height class,H:reported,preferred_conservative,Excludes fractional and unsupported storey counts rather than silently changing the observation.
+height,nearest,nearest available GEM height class,H:nearest,sensitivity,Ties are resolved toward the lower class; the storey difference is retained.
+design,baseline,1975-1997;1998-2006;2007-2018;2019+,CDL+ERL;CDM+ERL;CDM+ERM;CDH+ERH,assumption,Age-derived regulatory era is only a proxy for design and enforcement.
+design,lower,1975-1997;1998-2006;2007-2018;2019+,CDN+ERN;CDL+ERL;CDM+ERL;CDM+ERM,sensitivity,Lower design and enforcement interpretation.
+design,upper,1975-1997;1998-2006;2007-2018;2019+,CDL+ERM;CDM+ERM;CDH+ERM;CDH+ERH,sensitivity,Upper design and enforcement interpretation.

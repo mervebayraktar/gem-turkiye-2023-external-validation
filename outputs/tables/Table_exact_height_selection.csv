@@ -1,0 +1,4 @@
+﻿cohort,n,storeys_median,storeys_q1,storeys_q3,DS0_n,DS1_n,DS2_n,DS3_n,DS4_n,DS3plus_percent
+full_source,242,7.0,6.0,9.0,19,42,24,151,6,64.87603305785123
+primary_exact_height,109,6.0,5.0,8.0,14,24,9,58,4,56.88073394495413
+excluded_height_unmapped,133,7.5,7.0,11.0,5,18,15,93,2,71.42857142857143

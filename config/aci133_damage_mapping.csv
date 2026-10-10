@@ -1,0 +1,6 @@
+source_code,source_label,code_C_as_DS4,code_C_as_DS3,loss_ratio_proxy,status
+N,None,0,0,0.00,source_definition_verified
+L,Light,1,1,0.05,source_definition_verified
+M,Moderate,2,2,0.15,source_definition_verified
+S,Severe,3,3,0.60,source_definition_verified
+C,meaning unresolved in workbook,4,3,1.00,sensitivity_required

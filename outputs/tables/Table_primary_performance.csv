@@ -1,0 +1,5 @@
+﻿event_scope,output,n,bias_pred_obs,rmse,spearman,brier,ranked_probability_score,negative_log_score,accuracy_argmax
+two_main_events,vulnerability,109,0.46943267452236553,0.4127596513028464,0.09073880607868826,,,,
+two_main_events,fragility,109,,,,1.0914018280554452,1.1425519294116064,3.4242835432057896,0.1834862385321101
+four_survey_preceding_events,vulnerability,60,0.7372791539531973,0.34877304472446274,0.10751774451748969,,,,
+four_survey_preceding_events,fragility,60,,,,0.9467179106751078,0.8006719699709949,2.074696688546819,0.2

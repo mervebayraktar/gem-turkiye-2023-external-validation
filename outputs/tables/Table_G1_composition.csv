@@ -1,0 +1,13 @@
+﻿category,value
+n,17.0
+mean_SA06_g,0.49238040136097433
+mean_predicted_loss,0.004935500860637205
+mean_observed_loss,0.4676470588235294
+mean_predicted_DS3plus,0.00010258558166408862
+observed_DS3plus_frequency,0.6470588235294118
+design_CDH+ERH_n,13.0
+design_CDM+ERM_n,4.0
+height_H6_n,7.0
+height_H8_n,5.0
+height_H10_n,4.0
+height_H5_n,1.0

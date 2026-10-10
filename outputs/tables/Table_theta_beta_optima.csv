@@ -1,0 +1,4 @@
+﻿metric,theta_scale,beta_scale,minimum_score,theta_at_boundary,beta_at_boundary
+brier,0.85,1.8,1.0142181849697922,False,False
+ranked_probability_score,0.6,3.9,0.86690289561363,False,False
+negative_log_score,0.65,2.0,2.219006055674934,False,False

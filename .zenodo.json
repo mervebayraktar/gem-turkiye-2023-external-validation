@@ -1,0 +1,20 @@
+{
+  "title": "External assessment of GEM v2026 functions using 2023 Türkiye building damage",
+  "description": "Reproducible code, aggregate tables, configuration assumptions and supplementary material for an external assessment of GEM v2026 structural fragility and vulnerability functions in Türkiye.",
+  "creators": [
+    {
+      "name": "Bayraktar, Merve",
+      "affiliation": "Hacettepe University"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "seismic vulnerability",
+    "fragility",
+    "Kahramanmaras earthquakes",
+    "Global Earthquake Model",
+    "external validation"
+  ],
+  "upload_type": "software",
+  "access_right": "open"
+}

@@ -1,0 +1,20 @@
+{
+  "schema_reviewed": false,
+  "research_use_permitted": false,
+  "license_evidence": null,
+  "read_csv": {},
+  "columns": {
+    "building_id": null,
+    "latitude": null,
+    "longitude": null,
+    "damage_label": null,
+    "district": null,
+    "neighborhood": null,
+    "structural_system": null,
+    "year_built": null,
+    "storeys": null,
+    "occupancy": null,
+    "survey_date": null,
+    "fault_distance_km": null
+  }
+}

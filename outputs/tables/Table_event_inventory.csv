@@ -1,0 +1,5 @@
+﻿event_key,usgs_id,magnitude,origin_utc,longitude,latitude,PGA_coverage,SA03_coverage,SA06_coverage,SA10_coverage,SA06_derivation
+event1,us6000jllz,7.8,2023-02-06 01:17:34.342000+00:00,37.0143,37.2256,242,242,242,242,direct_shakemap_grid
+event3,us6000jlm1,6.7,2023-02-06 01:28:15.784000+00:00,36.8929,37.1893,242,242,242,242,log_period_log_sa_interpolation_from_SA0.3_SA1.0
+event2,us6000jlqa,7.5,2023-02-06 10:24:48.811000+00:00,37.1962,38.0106,242,242,242,242,direct_shakemap_grid
+event4,us6000jqcn,6.3,2023-02-20 17:04:29.747000+00:00,36.0251,36.1616,133,133,133,133,log_period_log_sa_interpolation_from_SA0.3_SA1.0

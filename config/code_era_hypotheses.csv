@@ -1,0 +1,7 @@
+era,year_start_inclusive,year_end_inclusive,baseline_candidate,lower_candidate,upper_candidate,status,restriction
+pre1975,,1974,CDN+ERN,CDN+ERN,CDL+ERL,unvalidated_hypothesis,Only if exact material/system/height/occupancy combination exists; no automatic ductility inference
+1975,1975,1997,CDL+ERL,CDN+ERN,CDL+ERM,unvalidated_hypothesis,Year is a proxy; permit/design date and detailing must be checked
+1998,1998,2006,CDM+ERL,CDL+ERL,CDM+ERM,unvalidated_hypothesis,Do not infer achieved ductility from calendar year
+2007,2007,2017,CDM+ERM,CDM+ERL,CDH+ERM,unvalidated_hypothesis,No verified GEM Turkey national crosswalk found
+2018_transition,2018,2018,CDM+ERM,CDM+ERL,CDH+ERH,unvalidated_hypothesis,2018 publication is not equivalent to implementation; check permit date
+2018_code_effective2019,2019,2023,CDH+ERH,CDM+ERM,CDH+ERH,unvalidated_hypothesis,2019 effective boundary; construction year alone insufficient

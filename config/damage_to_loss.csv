@@ -1,0 +1,6 @@
+gem_ds,description,structural_loss_ratio,source
+0,no_damage,0,Analytical zero-loss convention
+1,slight,0.05,https://link.springer.com/article/10.1007/s10518-026-02443-7/tables/4
+2,moderate,0.15,https://link.springer.com/article/10.1007/s10518-026-02443-7/tables/4
+3,extensive,0.60,https://link.springer.com/article/10.1007/s10518-026-02443-7/tables/4
+4,complete,1.00,https://link.springer.com/article/10.1007/s10518-026-02443-7/tables/4
