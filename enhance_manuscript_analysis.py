@@ -356,6 +356,13 @@ def gaziantep_replication(aci_buildings: pd.DataFrame) -> pd.DataFrame:
         vm = vulnerability_metrics(yloss, z.predicted_loss)
         fs = score_states(p, y)
         fs["accuracy_argmax"] = float((p.argmax(axis=1) == y).mean())
+        frequencies = np.bincount(y, minlength=5) / len(y)
+        climatology = np.tile(frequencies, (len(y), 1))
+        ref = score_states(climatology, y)
+        fs["brier_climatology"] = ref["brier"]
+        fs["brier_skill"] = 1 - fs["brier"] / ref["brier"]
+        fs["rps_climatology"] = ref["ranked_probability_score"]
+        fs["rps_skill"] = 1 - fs["ranked_probability_score"] / ref["ranked_probability_score"]
         rows.append({"cohort": cohort, **vm, **{f"fragility_{k}": v for k, v in fs.items()},
                      "near_ACI_50m_excluded": int((r.aci_nearest_km < 0.05).sum()),
                      "source_records": len(source), "rc_evaluated_records": len(g),

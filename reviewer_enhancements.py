@@ -124,6 +124,8 @@ def median_beta_surface(results: pd.DataFrame) -> None:
                 mec="white", mew=0.7, ms=5, label="Minimum")
         ax.set(xlabel=r"Multiplier on published median $\theta$",
                ylabel=r"Multiplier on published total $\beta$", title=title)
+        ax.set_xlim(theta_scales.min(), theta_scales.max())
+        ax.set_xticks(np.arange(0.4, 1.61, 0.2))
         ax.legend(frameon=False, fontsize=7, loc="upper right")
         fig.colorbar(im, ax=ax, pad=0.02)
     fig.savefig(SUBMISSION / "Fig_theta_beta_surface.pdf", bbox_inches="tight")

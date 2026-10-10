@@ -54,5 +54,5 @@ Original code in this repository is released under the MIT License. Tables and d
 
 ## Citation
 
-Citation metadata are provided in `CITATION.cff`. A version-specific DOI will be added after the first archived release.
+Version 1.0.0 is archived at Zenodo: [10.5281/zenodo.23287448](https://doi.org/10.5281/zenodo.23287448). Citation metadata are provided in `CITATION.cff`.
 
